@@ -124,7 +124,7 @@ function ApiDocs() {
             Every action in the UI is a plain HTTP call. Authenticate with{" "}
             <code>Authorization: Bearer &lt;your-api-key&gt;</code>. For a
             ready-to-run end-to-end client, see{" "}
-            <code>webapp/examples/submit_with_local_model.py</code>. It drives a local
+            <code>clients/scripts/submit_with_local_model.py</code>. It drives a local
             OpenAI-compatible model, submits the solutions, and prints the results.
           </p>
 
@@ -178,7 +178,7 @@ and included in the dataset export. Recommended keys:
   reasoning       thinking/chain-of-thought, if available
   model provider endpoint params created_at provider_meta
 
-See webapp/examples/submit_with_local_model.py for an Ollama client
+See clients/scripts/submit_with_local_model.py for an Ollama client
 that captures all of this automatically.`}
           </Doc>
 

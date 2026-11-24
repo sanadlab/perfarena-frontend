@@ -271,7 +271,7 @@ function HarnessForm({
   "repeats":     7                               // perf measure runs per attempt
                                                  //   (overrides ARENA_DISPATCH_REPEATS)
 }
-See webapp/examples/harness_runner_server.py for the reference server.`}
+See runner/harness_runner_server.py for the reference server.`}
                   style={{ fontFamily: "var(--mono, monospace)" }} />
       </label>
       <div className="row" style={{ gap: 6 }}>

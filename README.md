@@ -1,11 +1,10 @@
 # Arena frontend
 
-Vite + React + TypeScript + `vite-plugin-pwa`. Talks to the FastAPI backend on `:8000` via a dev proxy on `/api`.
+Vite + React + TypeScript + `vite-plugin-pwa`. Talks to the FastAPI backend on `:8000` via a dev proxy on `/api`. This repo is the `frontend/` submodule of the PerfArena repo, which holds the backend.
 
 ## Setup
 
 ```bash
-cd webapp/frontend
 npm install
 npm run dev      # http://localhost:5173
 ```
